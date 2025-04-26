@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country and Weather Info</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Country Weather</div>
+        <input type="text" id="countrySearch" placeholder="Search Country..." />
+        <button onclick="searchCountry()">Search</button>
+    </nav>
+
+    <!-- Main Content -->
+    <div id="countriesGrid" class="countries-grid"></div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Country Weather. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
