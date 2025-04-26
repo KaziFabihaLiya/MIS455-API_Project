@@ -10,7 +10,7 @@ function searchCountry() {
                 alert('No valid capital found for this country.');
                 return;
             }
-            fetch(`https://api.openweathermap.org/data/2.5/weather?q=${capital}&appid=0525afbb2edaa95d1b647ca49b0b2480&units=metric`)
+            fetch(`https://api.openweathermap.org/data/2.5/weather?q=${capital}&appid=GithuberErrorerJonneKeytaAddKoriNai&units=metric`) //Github er Error er Jonne Key ta Add Kori Nai
                 .then(response => response.json())
                 .then(weatherData => {
                     if (weatherData.cod === 404) {
